@@ -1,0 +1,73 @@
+.wifi-container{
+  height: 55vh;
+  width: 25vw;
+  position: absolute;
+  bottom: 8vh;
+  right: 3vh;
+  border-radius: 8px;
+  padding-top: 1rem;
+  /* background: linear-gradient(135deg, rgba(187, 53, 115, 0.1),rgba(255, 255, 255, 0)); */
+  backdrop-filter: blur(3rem);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-color: rgba(17, 17, 17, 0.857);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.wifi{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+.wifi-icons{
+  height: 3rem;
+  width: 5rem;
+  border-radius: 8px;
+  background-color: rgba(29, 29, 29, 0.857);
+  border: 1px solid rgb(162, 162, 162);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+/* brightness */
+.brightness-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0 1rem;
+  /* background-color: red; */
+}
+.brightness{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.brightness hr{
+  width: 100%;
+  height: 0.3rem;
+  background-color: #fff;
+  border-radius: 6px;
+}
+.wifi-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  padding: 0 1rem;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.436);
+}
+.battery, .settings{
+  display: flex;
+  align-items: center;
+  gap:8px;
+  font-size: 1rem;
+}
