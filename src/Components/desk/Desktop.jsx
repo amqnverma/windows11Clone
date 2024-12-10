@@ -22,7 +22,6 @@ import appstore from "../../assets/appstore.png";
 import WindowPopup from "../popup/WindowPopup";
 import Hidden from "../popup/Hidden";
 import Wifi from "../popup/Wifi";
-import Weather from "./weather";
 
 const Desktop = () => {
   const [data, setData] = useState([]);
@@ -36,7 +35,7 @@ const Desktop = () => {
   useEffect(() => {
     fetchData();
   }, []);
-  console.log(data);
+  // console.log(data);
 
   // let weatherStatus = data.weather[0].main;
   // let temperature = Math.floor(data.main.temp);
@@ -153,11 +152,11 @@ const Desktop = () => {
                   <img src={folder} alt="" />
                 </a>
               </div>
-              <div className="hover-icon">
+              {/* <div className="hover-icon">
                 <a href="https://telegram.org/" target="_blank">
                   <img src={telegram} alt="" />
                 </a>
-              </div>
+              </div> */}
               <div className="hover-icon">
                 <a
                   href="https://www.mozilla.org/en-US/firefox/windows/"
@@ -166,11 +165,11 @@ const Desktop = () => {
                   <img src={mozilla} alt="" />
                 </a>
               </div>
-              <div className="hover-icon">
+              {/* <div className="hover-icon">
                 <a href="https://open.spotify.com/" target="_blank">
                   <img src={spotify} alt="" />
                 </a>
-              </div>
+              </div> */}
               <div className="hover-icon">
                 <a href="https://code.visualstudio.com/" target="_blank">
                   <img src={vscode} alt="" />
