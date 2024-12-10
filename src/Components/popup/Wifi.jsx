@@ -1,6 +1,5 @@
 import React from "react";
 import "./Wifi.css";
-import { WifiHigh } from "lucide-react";
 import { FaWifi } from "react-icons/fa";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { CiBluetooth } from "react-icons/ci";

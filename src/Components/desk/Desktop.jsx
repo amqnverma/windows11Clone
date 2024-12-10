@@ -21,7 +21,7 @@ import telegram from "../../assets/telegram.png";
 import appstore from "../../assets/appstore.png";
 import WindowPopup from "../popup/WindowPopup";
 import Hidden from "../popup/Hidden";
-import Wifi from "../popup/wifi";
+import Wifi from "../popup/Wifi";
 import Weather from "./weather";
 
 const Desktop = () => {
